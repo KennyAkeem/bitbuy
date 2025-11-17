@@ -36,11 +36,11 @@ const Portfolio = () => {
               Cryptocurrency <span className="text-primary">Portfolio</span>
             </p>
             <h2 className="text-white sm:text-40 text-30 mb-4 font-medium">
-              Create your crypto portfolio today with Neurax
+              Create your crypto portfolio today with Bitbuy
               <span className="text-primary">Tech</span>!
             </h2>
             <p className="text-muted text-opacity-60 text-18">
-              Neurax has a variety of features that make it the best
+              Bitbuy has a variety of features that make it the best
               <br className="md:block hidden" /> place to start trading.
             </p>
 

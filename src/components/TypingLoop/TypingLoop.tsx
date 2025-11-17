@@ -15,7 +15,7 @@ type TypingLoopProps = {
 
 export default function TypingLoop({
   texts = [
-    "Welcome to Neurax  Tech",
+    "Welcome to Bitbuy",
     "One of the world's top trading platforms",
     "Over $2.8B payout since inception in 2011",
   ],

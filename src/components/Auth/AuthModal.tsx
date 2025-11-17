@@ -219,17 +219,17 @@ export default function AuthModal({ open, onClose, initialView = "login" }: Prop
         <div className="text-center mb-6">
           <h3 className="text-2xl font-bold text-cyan-400 tracking-wide drop-shadow-lg">
             {view === "signup"
-              ? "Neurax Registration"
+              ? "Bitbuy Registration"
               : view === "confirm"
               ? "Confirm your email"
-              : "Welcome to Neurax Tech"}
+              : "Welcome to Bitbuy"}
           </h3>
           <p className="text-gray-400 text-sm mt-1">
             {view === "signup"
               ? "Join the future of digital innovation."
               : view === "confirm"
               ? "We've sent a confirmation email. Check your inbox!"
-              : "Log in to continue your Neurax journey."}
+              : "Log in to continue your Bitbuy journey."}
           </p>
         </div>
 
@@ -397,7 +397,7 @@ export default function AuthModal({ open, onClose, initialView = "login" }: Prop
         <div className="mt-5 text-center text-sm text-gray-400">
           {view === "signup" ? (
             <>
-              Already part of Neurax?{" "}
+              Already part of Bitbuy?{" "}
               <button
                 onClick={() => {
                   setError(null);
@@ -410,7 +410,7 @@ export default function AuthModal({ open, onClose, initialView = "login" }: Prop
             </>
           ) : view === "login" ? (
             <>
-              New to Neurax Tech?{" "}
+              New to Bitbuy?{" "}
               <button
                 onClick={() => {
                   setError(null);

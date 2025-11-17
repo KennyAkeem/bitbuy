@@ -2,7 +2,7 @@
 import { Documentation } from "@/components/Documentation/Documentation";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-    title: "Featurs | neurax",
+    title: "Featurs | bitbuy",
 };
 
 export default function Page() {

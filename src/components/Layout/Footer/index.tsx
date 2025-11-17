@@ -40,7 +40,7 @@ const Footer: FC = () => {
               </Link>
             </div>
             <h3 className="text-white text-24 font-medium sm:mt-20 mt-12">
-              2025 Copyright | Neurax
+              2025 Copyright | Bitbuy
             </h3>
           </div>
 
@@ -75,7 +75,7 @@ const Footer: FC = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Icon icon="mdi:email" width="20" height="20" className="text-primary" />
-                <span>support@Neurax.com</span>
+                <span>support@Bitbuy.com</span>
               </li>
             </ul>
           </div>

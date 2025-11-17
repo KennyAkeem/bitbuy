@@ -13,7 +13,7 @@ import VideoSection from "@/components/VideoSection";
   
 
 export const metadata = {
-  title: "Neurax - home",
+  title: "Bitbuy - home",
 };
 
 export default function Home() {

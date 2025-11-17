@@ -2,7 +2,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "User Dashboard | Neurax Tech",
+  title: "User Dashboard | Bitbuy Investment",
   description: "Manage your investments and track profits on Neurax Tech.",
 };
 

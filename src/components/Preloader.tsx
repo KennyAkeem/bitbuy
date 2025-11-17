@@ -29,7 +29,7 @@ export default function Preloader() {
         {/* Replace text with your logo image */}
         <Image
           src="/logo.png"
-          alt="Neurax Logo"
+          alt="Bitbuy Logo"
           width={180}
           height={60}
           className="object-contain animate-fade"
