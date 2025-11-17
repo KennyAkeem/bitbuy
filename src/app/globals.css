@@ -202,4 +202,8 @@ img, picture, video, .next-image, .next-img, .next-image-wrapper {
 }
 
 
-
+option{
+  color: black;
+  background-color: white;
+  font-weight: 600;
+}
