@@ -25,13 +25,13 @@ const PLANS: Plan[] = [
   {
     id: "starter",
     title: "Starter Plan",
-    rateLabel: "5.0% daily",
-    ratePercent: "5%",
+    rateLabel: "10.0% daily",
+    ratePercent: "10%",
     rangeLabel: "$500 - $9,999",
     minDeposit: 100,
     maxDeposit: 9999,
-    durationLabel: "30 days",
-    features: ["5% daily returns", "30-day investment period", "Basic support", "Mobile app access"],
+    durationLabel: "5 Hours",
+    features: ["10% daily returns", "30-day investment period", "Basic support", "Mobile app access"],
     ctaLabel: "Invest Now",
   },
   {
