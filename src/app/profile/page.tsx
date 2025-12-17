@@ -25,27 +25,27 @@ const PLANS: Plan[] = [
   {
     id: "starter",
     title: "Starter Plan",
-    rateLabel: "10% daily",
-    ratePercent: "10%",
+    rateLabel: "5.0% daily",
+    ratePercent: "5%",
     rangeLabel: "$500 - $9,999",
     minDeposit: 100,
     maxDeposit: 9999,
-    durationLabel: "5 Hours",
-    features: ["10% daily returns", "5 hours investment period", "Basic support", "Mobile app access"],
+    durationLabel: "30 days",
+    features: ["5% daily returns", "30-day investment period", "Basic support", "Mobile app access"],
     ctaLabel: "Invest Now",
   },
   {
     id: "growth",
     title: "Growth Plan",
-    rateLabel: "20% daily",
-    ratePercent: "20%",
+    rateLabel: "8.0% daily",
+    ratePercent: "8%",
     rangeLabel: "$10,000 - $99,999",
     minDeposit: 10000,
     maxDeposit: 99999,
-    durationLabel: "10 Hours",
+    durationLabel: "45 days",
     features: [
-      "20% daily returns",
-      "10 Hours investment period",
+      "8% daily returns",
+      "45-day investment period",
       "Priority support",
       "Advanced analytics",
       "Withdrawal flexibility",
@@ -55,15 +55,15 @@ const PLANS: Plan[] = [
   {
     id: "premium",
     title: "Premium Plan",
-    rateLabel: "30% daily",
-    ratePercent: "30%",
+    rateLabel: "12.0% daily",
+    ratePercent: "12%",
     rangeLabel: "$100,000 - Unlimited",
     minDeposit: 100000,
     maxDeposit: 999999999,
-    durationLabel: "15 Hours",
+    durationLabel: "60 days",
     features: [
-      "30% daily returns",
-      "15 Hours investment period",
+      "12% daily returns",
+      "60-day investment period",
       "VIP support",
       "Personal account manager",
       "Custom investment strategies",
@@ -385,7 +385,7 @@ export default function ProfilePage() {
         {/* Dashboard Title */}
         <h2 className="text-2xl sm:text-3xl font-bold mb-2">Investment Dashboard</h2>
         <p className="text-midnight_text mb-6 sm:mb-8 text-sm sm:text-base">
-          Track your Bitbuy investment portfolio
+          Track your Starspace investment portfolio
         </p>
 
         {/* Stat Cards - only Total Invested and Total Profit per request */}
